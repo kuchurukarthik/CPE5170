@@ -1,0 +1,71 @@
+.layout {
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  height: 10%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  height: 5%;
+  background-color: rgb(169, 103, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 85%;
+  background-color: white;
+  display: flex;
+}
+
+.options {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.options > .buttons,
+.options > .MuiInputBase-root {
+  text-align: center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.jobs {
+  width: 50%;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  width: 50%;
+  margin: 1rem !important;
+  background-color: #54b948 !important;
+}
+
+.job {
+  height: 3rem;
+  width: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+  margin: 8px;
+  background-color: #c5c5c5 !important;
+}
